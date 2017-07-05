@@ -18,14 +18,7 @@ namespace ContainerManagementSystem
             GuidString = GuidString.Replace("+", "");
             referenceid.Text = GuidString;
             package_combo();
-            fullname.Text = "Arsalan";
-            addressline.Text = "pakistan";
-           // city.Text = "Multan";
-            DropDownList1.SelectedIndex = 4;
-                R_fullname.Text = "Bahahaha";
-            R_addressline1.Text = "austrailia";
-            R_city.Text = "Beligium";
-              R_DropDownList2.SelectedIndex = 8;
+            
 
         }
 
