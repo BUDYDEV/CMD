@@ -3,6 +3,13 @@
 <!DOCTYPE html>
 <html >
 <head>
+<script>
+window.onload=function(){
+ 
+ document.getElementById('login').click();
+ 
+}
+</script>
   <meta charset="UTF-8">
   <title>Login Form</title>
   

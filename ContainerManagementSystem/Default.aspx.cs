@@ -11,7 +11,8 @@ namespace ContainerManagementSystem
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+username.Text = "admin@enter.com";
+password.Text = "admin";
         }
 
         protected void login_Click(object sender, EventArgs e)
