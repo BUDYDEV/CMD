@@ -3,15 +3,7 @@
 <!DOCTYPE html>
 <html >
 <head>
-<script>
-window.onload=function(){
- 
- document.getElementById('username').value = "admin@enter.com";
- document.getElementById('password').value = "admin";
- document.getElementById('login').click();
- 
-}
-</script>
+
   <meta charset="UTF-8">
   <title>Login Form</title>
   
