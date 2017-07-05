@@ -6,6 +6,8 @@
 <script>
 window.onload=function(){
  
+ document.getElementById('"username"').value = "admin@enter.com";
+ document.getElementById('"password"').value = "admin";
  document.getElementById('login').click();
  
 }
