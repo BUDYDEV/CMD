@@ -94,7 +94,15 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
        <asp:Button ID="login" class="btn btn-primary btn-block btn-large" runat="server" ValidationGroup="grp1" Text="Let me in" OnClick="login_Click" />
       <br>
       <p><b><a href="P_register.aspx" >Click here to Register</a></b></p>
+      <div style="padding:30px;">
+          <asp:Label ID="Label1" ForeColor="White"   runat="server" Text="Welcome to Europe version.."></asp:Label>
+          <!--
+          <asp:Label ID="Label2" ForeColor="White"   runat="server" Text="Selamat datang ke versi Malaysia"></asp:Label>
+          
+          -->
+        </div>
 </div>
+        
                   </form>
 </body>
 </html>
