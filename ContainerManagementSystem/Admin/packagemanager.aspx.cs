@@ -12,7 +12,13 @@ namespace ContainerManagementSystem.Admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            package_combo();
+if (Session["username"] == null)
+            {
+                Response.Redirect("~/Default.aspx");
+            }else{
+  package_combo();
+   }
+          
         }
         
 

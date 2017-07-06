@@ -12,12 +12,18 @@ namespace ContainerManagementSystem
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["username"] == null)
+            {
+                Response.Redirect("~/Default.aspx");
+            }else{
             Guid g = Guid.NewGuid();
             string GuidString = Convert.ToBase64String(g.ToByteArray());
             GuidString = GuidString.Replace("=", "");
             GuidString = GuidString.Replace("+", "");
             referenceid.Text = GuidString;
             package_combo();
+             }
+         
             
 
         }
